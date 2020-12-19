@@ -19,6 +19,7 @@ struct CounterButton: View {
             .background(Color(.systemYellow))
             .clipShape(Circle())
             .onTapGesture(perform: counterRobot.increment)
+            .onLongPressGesture(perform: counterRobot.reset)
     }
 }
 

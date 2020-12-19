@@ -10,6 +10,7 @@ import SwiftUI
 struct WorkoutLabel: View {
     let label: String
     
+    
     var body: some View {
         Text(label)
             .font(.caption)

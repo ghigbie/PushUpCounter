@@ -9,10 +9,14 @@ import SwiftUI
 
 class CounterRobot: ObservableObject{
     
-    var counter: Int = 0
+    @Published var counter: Int = 0
     
     func increment() {
         counter += 1
     }
     
+    func reset(){
+        counter = 0
+        print("called")
+    }
 }
