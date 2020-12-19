@@ -12,6 +12,8 @@
 		DBB41E95258B18C100872D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB41E94258B18C100872D7F /* Assets.xcassets */; };
 		DBB41E98258B18C100872D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB41E97258B18C100872D7F /* Preview Assets.xcassets */; };
 		DBB41EA1258C52E000872D7F /* WorkoutLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EA0258C52E000872D7F /* WorkoutLabel.swift */; };
+		DBB41EA4258C53D600872D7F /* CounterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EA3258C53D600872D7F /* CounterButton.swift */; };
+		DBB41EA7258C578200872D7F /* CounterRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EA6258C578200872D7F /* CounterRobot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DBB41E97258B18C100872D7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBB41E99258B18C100872D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBB41EA0258C52E000872D7F /* WorkoutLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLabel.swift; sourceTree = "<group>"; };
+		DBB41EA3258C53D600872D7F /* CounterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterButton.swift; sourceTree = "<group>"; };
+		DBB41EA6258C578200872D7F /* CounterRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterRobot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DBB41E99258B18C100872D7F /* Info.plist */,
 				DBB41E96258B18C100872D7F /* Preview Content */,
 				DBB41EA0258C52E000872D7F /* WorkoutLabel.swift */,
+				DBB41EA3258C53D600872D7F /* CounterButton.swift */,
+				DBB41EA6258C578200872D7F /* CounterRobot.swift */,
 			);
 			path = PushUpCounter;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBB41E93258B18BE00872D7F /* ContentView.swift in Sources */,
+				DBB41EA7258C578200872D7F /* CounterRobot.swift in Sources */,
 				DBB41EA1258C52E000872D7F /* WorkoutLabel.swift in Sources */,
+				DBB41EA4258C53D600872D7F /* CounterButton.swift in Sources */,
 				DBB41E91258B18BE00872D7F /* PushUpCounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
