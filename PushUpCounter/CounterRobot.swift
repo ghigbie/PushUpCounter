@@ -17,6 +17,5 @@ class CounterRobot: ObservableObject{
     
     func reset(){
         counter = 0
-        print("called")
     }
 }
