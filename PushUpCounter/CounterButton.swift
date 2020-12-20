@@ -11,7 +11,7 @@ struct CounterButton: View {
     @StateObject var counterRobot: CounterRobot = CounterRobot()
     
     var body: some View {
-        Text("\(counterRobot.counter)")
+        Text(String(counterRobot.counter))
             .font(.largeTitle)
             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
             .foregroundColor(Color(.white))
